@@ -1,0 +1,128 @@
+@font-face{
+font-family: "Ral"; 
+src: url(disco-1.ttf); }
+
+body{background:black ;}
+
+
+.a{
+    display:block ;position:center ;
+	margin-left:auto;
+	margin-right:auto ;
+	width:50px ;
+	height:50px ;
+	color:lightblue ;
+  margin-top:100px ;
+	text-decoration: none;
+	border:1px solid white ;
+	border-radius:50% ;
+	background:url(ger.jpg) no-repeat center;
+	
+	transition:all 0.5s ease;
+	
+}
+
+
+
+@keyframes blur{
+  from{
+      text-shadow:0px 0px 10px #fff,
+      0px 0px 10px #fff, 
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 50px #fff,
+      0px 0px 50px #fff,
+      0px 0px 50px #7B96B8,
+      0px 0px 150px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px -10px 100px #7B96B8,
+      0px -10px 100px #7B96B8;}
+}
+
+
+
+
+
+
+.ete{   display:block ;
+	margin-left:auto;
+	margin-right:auto ;
+	width:50px ;
+	height:50px ;
+	color:lightblue ;
+    margin-top:50px ;
+	text-decoration: none;
+	border:1px solid white ;
+	border-radius:50% ;
+	margin-left: auto;
+	margin-right: auto;
+	background:#78DBED;
+	text-align:center ;
+	transition:all 0.5s ease;
+	font-family:"Ral" ;
+	
+}
+
+.aa:hover{
+	font-size:70px ;
+	animation:blur 0.98s ease-out infinite;
+  text-shadow:text-shadow: 0 0 5px #abc, 0 0 7px #abc;
+	transform:rotate(720deg) ;
+	text-align:center ;
+	background:url(atom.gif) no-repeat center;
+	color:black;
+	padding:200px ;
+	border:1px solid transparent ;
+}
+.div{color:white ;}
+
+.rot:hover{
+  animation: 0.2s linear 0s normal none infinite running rot;
+  -webkit-animation: 0.2s linear 0s normal none infinite running rot;
+}
+@keyframes rot {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes rot {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.rota:hover {
+	animation: 2s linear 0s normal none infinite running rota;
+  -webkit-animation: 2s linear 0s normal none infinite running rota;}
+  @keyframes rota {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes rota {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.fuck{background:url(ger.jpg) no-repeat center;
+border:1px solid lightblue ;
+border-radius:50% ;}

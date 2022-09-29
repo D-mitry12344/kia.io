@@ -1,0 +1,110 @@
+.html{
+background:black;	
+}
+.light{background:white ;}
+
+
+.grid{
+	display:grid ;
+	
+	margin-left:100px ;
+    row-gap:10px ;
+	grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows:1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.hat{
+	grid-column:1/2 ;
+	grid-row:2/3 ;}
+.hatt{grid-column:2/3 ;
+	grid-row:2/3 ;}
+.hattt{grid-column:3/4 ;
+	grid-row:2/3 ;}
+.hatttt{grid-column:4/5 ;
+	grid-row:2/3 ;}
+.hattttt{grid-column:5/6 ;
+	grid-row:2/3 ;}
+.tuh
+{background:black;
+	color:black ;
+
+	width: 0;
+	height: 0;
+border-left: 50px solid transparent;
+border-right: 50px solid transparent;
+border-top: 100px solid white;
+	 transition: all 0.3s ease;
+	 text-align:center ;
+	}
+
+.tuh:hover{
+	background:black url(fon.jpg) no-repeat center;
+	color:white ;
+transform:rotate(45deg);
+border-radius:50% ;
+}
+
+
+.tuhh
+{background:black;
+	color:black ;
+	text-decoration: none;
+	width: 0;
+	height: 0;
+border-left: 50px solid transparent;
+border-right: 50px solid transparent;
+border-top: 100px solid white;
+	 transition: all 0.3s ease;
+	 text-align:center ;
+	}
+
+.tuhh:hover{
+	background:black url(fon.jpg) no-repeat center;
+	color:white ;
+transform:rotate(-45deg);
+border-radius:50% ;
+}
+
+.tu
+{background:transparent;
+	
+	width: 0;
+	height: 0;
+border-left: 50px solid transparent;
+border-right: 50px solid transparent;
+border-top: 100px solid white;
+	 transition: all 0.3s ease;
+	 text-align:center ;
+	}
+
+.tu:hover{
+	background:black url(fon.jpg) no-repeat center;
+	color:white ;
+
+border-radius:40% ;
+}
+p{ margin-left: -25px;}
+button{background:transparent ;}
+.tu:active{border-top:100px solid darkred ;}
+
+.t
+{margin-top:40px ;
+	margin-left:0px ;
+	grid-column:3/4 ;
+	grid-row:3/5 ;
+	background:transparent;
+	width: 0;
+	height: 0;
+border-left: 50px solid transparent;
+border-right: 50px solid transparent;
+border-top: 100px solid white;
+	 transition: all 0.3s ease;
+
+	}
+
+.ty{
+	border-top:100px solid black;color:white ;background:transparent;}
+	.ty:hover{background:black;color:black;transform:scale(1.4) rotate(180deg) ;border-top:100px solid white;transform:}
+
+p: hover{text-transform:rotate(180deg) ;}
+}
+	
